@@ -6,83 +6,83 @@ This project focuses on cleaning and analyzing the Netflix Prize dataset contain
 
 #1. clean_data_file1.ipynb
 
-Loaded raw hierarchical rating dataset
+- Loaded raw hierarchical rating dataset
 
-Extracted MovieID from header rows
+- Extracted MovieID from header rows
 
-Forward-filled MovieID values
+- Forward-filled MovieID values
 
-Structured ratings into proper columns
+- Structured ratings into proper columns
 
  #2. clean_moviesname_file2.ipynb
 
-Loaded movie metadata file
+- Loaded movie metadata file
 
-Handled encoding issues
+- Handled encoding issues
 
-Cleaned Year and Title columns
+- Cleaned Year and Title columns
 
-Removed inconsistencies
+- Removed inconsistencies
 
 #3. clean_rating_file.3ipynb.ipynb
 
-Removed null values
+- Removed null values
 
-Validated rating range (1–5)
+- Validated rating range (1–5)
 
-Optimized memory usage
+- Optimized memory usage
 
-Converted datatypes for efficiency
+- Converted datatypes for efficiency
 
 #4. merge_files_and_analysis_file4.ipynb
 
-Merged ratings and movie metadata
+- Merged ratings and movie metadata
 
-Removed unmatched records
+- Removed unmatched records
 
-Performed structured EDA
+- Performed structured EDA
 
-Created visualizations using Matplotlib & Seaborn
+- Created visualizations using Matplotlib & Seaborn
 
-Extracted statistical insights
+- Extracted statistical insights
 
 
 ##Dataset Information
 
-23.8 Million Ratings
+-> 23.8 Million Ratings
 
-470K+ Unique Users
+-> 470K+ Unique Users
 
-4,493 Movies
+-> 4,493 Movies
 
-6 Structured Columns
+-> 6 Structured Columns
 
 
 
 ##Key Insights
 
-Ratings are concentrated around 3–4, indicating positive user bias.
+-> Ratings are concentrated around 3–4, indicating positive user bias.
 
-User activity follows a heavy-tailed distribution (few highly active users).
+-> User activity follows a heavy-tailed distribution (few highly active users).
 
-A small fraction of movies dominate total engagement.
+-> A small fraction of movies dominate total engagement.
 
-Popularity and average rating show weak correlation.
+-> Popularity and average rating show weak correlation.
 
-Platform activity increased significantly over time.
+-> Platform activity increased significantly over time.
 
 
 
 ##Tools & Technologies
 
-Python
+-> Python
 
-Pandas
+-> Pandas
 
-NumPy
+-> NumPy
 
-Matplotlib
+-> Matplotlib
 
-Seaborn
+-> Seaborn
 
 If you find this project interesting, feel free to explore the notebooks and share feedback :)
